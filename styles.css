@@ -1,33 +1,43 @@
 body {
   text-align: center;
-  background-color: #011f3f;
+  background-color: #121212; /* Dark background color */
+  color: #fefefe; /* Light text color */
+  font-family: Arial, sans-serif;
 }
+
 #title {
   font-family: "Press Start 2P", cursive;
   font-size: 3rem;
   margin: 5%;
-  color: #fef2bf;
+  color: #fddb3a; /* Yellow text color */
 }
+
 #real {
-  color: white;
+  color: #bdbdbd; /* Gray text color */
   padding-top: 10px;
   padding-bottom: 100px;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   font-size: large;
 }
+
 .container1 {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
+
 .foot {
   height: 50px;
   width: 50px;
-  border-radius: 95%;
+  border-radius: 50%;
 }
+
 #level-title {
   font-family: "Press Start 2P", cursive;
   font-size: 3rem;
   margin: 5%;
-  color: #fef2bf;
+  color: #fddb3a; /* Yellow text color */
 }
 
 .container {
@@ -41,32 +51,32 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 10px solid #121212; /* Dark border color */
   border-radius: 20%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Light box shadow */
 }
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+  background-color: rgba(255, 0, 0, 0.8); /* Red with transparency */
 }
 
 .red {
-  background-color: red;
+  background-color: #ff4136; /* Red */
 }
 
 .green {
-  background-color: green;
+  background-color: #2ecc40; /* Green */
 }
 
 .blue {
-  background-color: blue;
+  background-color: #0074d9; /* Blue */
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #ffdc00; /* Yellow */
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
+  box-shadow: 0 0 20px #fefefe; /* Light box shadow on press */
+  background-color: #333; /* Dark background color on press */
 }
